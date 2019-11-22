@@ -1,38 +1,39 @@
 {
-  "name": "@dwebjs/mirror",
-  "description": "Library for mirroring one folder to another.",
-  "version": "1.0.0",
-  "contributors": [
-    "Jared Rice Sr. <jared@dpeeps.com>",
-    "Peeps Labs <labs@dpeeps.com>"
-  ],
-  "bugs": {
-    "url": "https://github.com/dwebjs/mirror"
-  },
-  "dependencies": {
-    "fd-read-stream": "^1.1.0",
-    "recursive-watch": "^1.1.1"
-  },
-  "devDependencies": {
-    "@dwebjs/ddrive": "dwebjs/ddrive#master",
-    "random-access-memory": "^2.3.0",
-    "standard": "^9.0.2",
-    "tape": "^4.6.3",
-    "temporary-directory": "^1.0.2"
-  },
-  "homepage": "https://dwebs.io",
-  "keywords": [
-    "dweb",
-    "distributed-web",
-    "dweb-mirror"
-  ],
-  "license": "MIT",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dwebjs/mirror.git"
-  },
-  "scripts" {
-    "test": "standard && tape test/*.js"
-  }
+    "name": "@dwebjs/mirror",
+    "description": "Library for mirroring one folder to another.",
+    "version": "1.0.0",
+    "contributors": [
+        "Jared Rice Sr. <jared@dpeeps.com>",
+        "Peeps Labs <labs@dpeeps.com>"
+    ],
+    "bugs": {
+        "url": "https://github.com/dwebjs/mirror"
+    },
+    "dependencies": {
+        "fd-read-stream": "^1.1.0",
+        "recursive-watch": "^1.1.1"
+    },
+    "devDependencies": {
+        "@dwebjs/ddrive": "dwebjs/ddrive#master",
+        "hyperdrive": "^8.2.0",
+        "random-access-memory": "^2.3.0",
+        "standard": "^9.0.2",
+        "tape": "^4.6.3",
+        "temporary-directory": "^1.0.2"
+    },
+    "homepage": "https://dwebs.io",
+    "keywords": [
+        "dweb",
+        "distributed-web",
+        "dweb-mirror"
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dwebjs/mirror.git"
+    },
+    "scripts": {
+        "test": "standard && tape test/*.js"
+    }
 }
